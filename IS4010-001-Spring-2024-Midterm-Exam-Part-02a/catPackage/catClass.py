@@ -9,7 +9,9 @@ class Cat:
     def sayMeow(self):
         '''
         Print meow to the console
+        @return: meow
         '''
+        return print("meow")
         pass
     
     def getName(self):
@@ -17,5 +19,6 @@ class Cat:
         Get the name of the Cat object
         @return: The name of the Cat object
         '''
+        return self.name
         pass
     
